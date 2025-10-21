@@ -1,72 +1,43 @@
-# 🧠 Exploratory Data Analysis (EDA) on COVID-19 Dataset
+ 📊 Exploratory Data Analysis (EDA) on COVID-19 Dataset
+ 🧠 Project Overview
+This project was completed as part of my **HexSoftwares Data Science Internship**.  
+The goal was to perform **Exploratory Data Analysis (EDA)** on the COVID-19 dataset to uncover insights about case trends, recovery rates, and fatalities across countries.
 
-This project performs **Exploratory Data Analysis (EDA)** on a sample COVID-19 dataset using Python.  
-It demonstrates how to analyze, summarize, and visualize real-world data using **Pandas**, **Matplotlib**, and **Seaborn**.
 
----
+ 🎯 Objectives
+- Analyze the COVID-19 dataset for trends and patterns  
+- Identify missing values, outliers, and data inconsistencies  
+- Visualize key relationships between features  
+- Extract actionable insights to understand the pandemic impact
 
-## 📊 Project Overview
-The script performs the following steps:
-1. Loads COVID-19 sample data from a CSV file.
-2. Converts the date column to datetime format.
-3. Displays summary statistics and dataset information.
-4. Calculates total confirmed cases per country.
-5. Visualizes:
-   - Total confirmed cases by country (bar chart)
-   - Correlation heatmap for `Confirmed`, `Deaths`, `Recovered`, and `Active` cases.
+ 🧰 Tools & Technologies
+- Language:** Python  
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn  
+- Platform: Visual Studio Code  
+- Version Control: Git & GitHub  
 
----
+ 📈 Project Process
+1. Load and inspect the dataset  
+2. Handle missing values and clean the data  
+3. Perform statistical analysis  
+4. Visualize data trends, correlations, and distributions  
+5. Summarize insights and conclusions  
 
-## 🧰 Technologies Used
-- **Python 3.x**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
+🔍 Key Findings
+- The highest surge in cases occurred during mid-2020, with regional variations.  
+- Countries with higher testing rates showed lower fatality ratios.  
+- Recovery rates improved steadily as vaccination programs were implemented.  
 
----
+ 💡 Learning Outcomes
+- Strengthened skills in **data cleaning and preprocessing**  
+- Gained experience in **data visualization and interpretation**  
+- Learned to extract meaningful insights from real-world datasets  
+- Improved proficiency in **Python libraries for data analysis**  
 
-## 📦 Installation & Setup
 
-1. Clone this repository:
-   ```bash
-   git clone(https://github.com/Hashir4m4/Exploratory-Data-Analysis-EDA-on-COVID-19-Dataset.git)
-   ```
 
-2. Install dependencies:
-   ```bash
-   pip install pandas matplotlib seaborn
-   ```
+🌟 Acknowledgment
+Special thanks to **HexSoftwares** for providing this opportunity to work on real-world data and strengthen my Data Science skills.
 
-3. Ensure your dataset is available at:
-   ```
-   data/covid_sample.csv
-   ```
-
-4. Run the analysis:
-   ```bash
-   python eda_analysis.py
-   ```
-
----
-
-## 📈 Output
-The script generates:
-- **Bar Chart** → Total confirmed cases by country  
-- **Heatmap** → Correlation matrix between numerical features  
-
----
-
-## 📁 Project Structure
-```
-├── eda_analysis.py         # Main analysis script
-├── data/
-│   └── covid_sample.csv    # Input dataset
-└── README.md               # Project documentation
-```
-
----
-
-## ✨ Future Improvements
-- Add more visualizations (trend over time, case distribution, etc.)
-- Automate missing data handling and outlier detection
-- Integrate interactive dashboards (e.g., Plotly, Dash)
+ 🔗 Repository Link
+https://github.com/Hashir4m4/Exploratory-Data-Analysis-EDA-on-COVID-19-Dataset](https://github.com/Hashir4m4/Exploratory-Data-Analysis-EDA-on-COVID-19-Dataset
