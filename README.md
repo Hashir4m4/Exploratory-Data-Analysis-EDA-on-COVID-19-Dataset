@@ -29,8 +29,7 @@ The script performs the following steps:
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone(https://github.com/Hashir4m4/Exploratory-Data-Analysis-EDA-on-COVID-19-Dataset.git)
    ```
 
 2. Install dependencies:
